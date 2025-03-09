@@ -35,7 +35,7 @@ async function toggleAutoplay(client, interaction, lang) {
                 iconURL: musicIcons.alertIcon,
                 url: config.SupportServer 
             })
-            .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
+            .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon })
             .setTimestamp()
             .setDescription(lang.autoplay.embed.errorDescription);
 
