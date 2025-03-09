@@ -18,7 +18,7 @@ async function deletePlaylist(client, interaction, lang) {
                     url: config.SupportServer
                 })
                 .setDescription(lang.deleteplaylist.embed.playlistNotFoundDescription)
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
+                .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon })
                 .setTimestamp();
 
             await interaction.reply({ embeds: [embed], ephemeral: true });
