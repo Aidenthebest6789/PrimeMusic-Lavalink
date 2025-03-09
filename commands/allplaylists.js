@@ -47,7 +47,7 @@ async function allPlaylists(client, interaction, lang) {
                     url: config.SupportServer
                 })
                 .setDescription(description)
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
+                .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon })
                 .setTimestamp();
         });
 
