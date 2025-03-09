@@ -25,7 +25,7 @@ async function createPlaylist(client, interaction, lang) {
                     iconURL: musicIcons.alertIcon,
                     url: config.SupportServer
                 })
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
+                .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon })
                 .setTimestamp()
                 .setDescription(lang.createplaylist.embed.playlistExistsDescription);
 
