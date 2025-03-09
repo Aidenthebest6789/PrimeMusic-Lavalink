@@ -1,7 +1,7 @@
 {
-  "name": "prime-music",
+  "name": "HexaBot Music",
   "version": "1.2",
-  "description": "Music Bot",
+  "description": "The most easy, music Bot! i have many commands!",
   "main": "index.js",
   "dependencies": {
     "axios": "^1.8.1",
