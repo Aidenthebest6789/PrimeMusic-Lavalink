@@ -3,8 +3,8 @@
 module.exports = {
   TOKEN: "",
   language: "en",
-  ownerID: ["1004206704994566164", ""], 
-  mongodbUri : "",
+  ownerID: ["1180993418479013928", ""], 
+  mongodbUri : "mongodb+srv://All-in-one:6306@all-in-one.mslpx.mongodb.net/?retryWrites=true&w=majority&appName=All-in-one",
   spotifyClientId : "",
   spotifyClientSecret : "",
   setupFilePath: './commands/setup.json',
