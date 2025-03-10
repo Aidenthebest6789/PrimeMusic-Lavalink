@@ -133,7 +133,7 @@ async function play(client, interaction, lang) {
                     iconURL: musicIcons.alertIcon,
                     url: config.SupportServer
                 })
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
+                .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon })
                 .setDescription(lang.play.embed.noResults);
 
             await interaction.followUp({ embeds: [errorEmbed] });
@@ -164,7 +164,7 @@ async function play(client, interaction, lang) {
             url: config.SupportServer
         })
         .setDescription(lang.play.embed.successProcessed)
-        .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon });
+        .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon });
     
         const message = await interaction.followUp({ embeds: [randomEmbed] });
 
