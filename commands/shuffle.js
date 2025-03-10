@@ -47,7 +47,7 @@ async function shuffle(client, interaction, lang) {
                 iconURL: musicIcons.alertIcon,
                 url: config.SupportServer
             })
-            .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
+            .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon })
             .setDescription(lang.shuffle.embed.errorDescription);
 
         await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
