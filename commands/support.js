@@ -41,7 +41,7 @@ module.exports = {
                     url: config.SupportServer
                 })
                 .setDescription(lang.support.embed.errorDescription)
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon });
+                .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon });
 
             await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
         }
