@@ -16,7 +16,7 @@ async function remove(client, interaction, lang) {
                     url: config.SupportServer
                 })
                 .setDescription(lang.remove.embed.queueEmptyDescription)
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon });
+               .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon });
 
             await interaction.reply({ embeds: [emptyQueueEmbed], ephemeral: true });
             return;
@@ -31,7 +31,7 @@ async function remove(client, interaction, lang) {
                     url: config.SupportServer
                 })
                 .setDescription(lang.remove.embed.invalidPositionDescription.replace("{queueLength}", player.queue.length))
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon });
+              .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon });
 
             await interaction.reply({ embeds: [invalidPositionEmbed], ephemeral: true });
             return;
@@ -60,7 +60,7 @@ async function remove(client, interaction, lang) {
                 url: config.SupportServer
             })
             .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
-            .setDescription(lang.remove.embed.errorDescription);
+            .setFooter({ text: "HexaBot Music", iconURL: musicIcons.heartIcon });
 
         await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
     }
